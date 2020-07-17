@@ -1,0 +1,19 @@
+{
+  "name": "file-hash-computing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "test": "jest test/**.test.js"
+  },
+  "dependencies": {
+    "md5-file": "^5.0.0",
+    "node-addon-api": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "node-gyp": "^7.0.0"
+  }
+}
